@@ -1,4 +1,4 @@
-# PRINTF
+# printf
 
 CODAM project Curriculum 2019
 
@@ -10,7 +10,7 @@ CODAM project Curriculum 2019
 
 ## Requirements
 
-- The prototype of ft_printf should be ```int ft_printf(const char *, ...);```
+- The prototype of _ft_printf_ should be ```int ft_printf(const char *, ...);```
 - Recode the **libc’s printf** function
 - It must not do the buffer management like the real printf
 - Manage the following conversions: ```cspdiuxX%```
@@ -25,5 +25,5 @@ width with all conversions
 ---
 ## How to build :hammer:
 
-1. Clone the repository and go to folder ```cd ft_printf```
+1. Clone the repository and go to folder ```cd printf```
 2. Type in the terminal ```make```

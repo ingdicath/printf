@@ -27,3 +27,8 @@ width with all conversions
 
 1. Clone the repository and go to folder ```cd printf```
 2. Type in the terminal ```make```
+---
+
+## Resources :books:
+
+More info in the Wiki!

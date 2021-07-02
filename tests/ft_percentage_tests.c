@@ -507,17 +507,3 @@ int main(void)
 	return (0);
 }
 
-
-// //%% Tests
-// int		pct_basic(void){return test("%%");}ok
-//  int		pct_5w(void){return test("%5%");}ok
-//  int		pct_5wlj(void){return test("%-5%");}ok
-//  int		pct_5wzp(void){return test("%05%");}OK
-//  int		pct_5wljzp(void){return test("%-05%");} OK
-
-// //Null specifier tests
-// int		nocrash_nullspec_basic(void){return test("%");}
-// int		nocrash_nullspec_5w(void){return test("%5");}
-// int		nocrash_nullspec_5wzp(void){return test("%05");}
-// int		nocrash_nullspec_5wzplj(void){return test("%-05");}
-// int		nocrash_nullspec_5wlj(void){return test("%-5");}

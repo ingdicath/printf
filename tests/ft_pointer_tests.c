@@ -458,10 +458,6 @@ void runPointerTest(void)
     x = 10;
     p = &x; 
 
-    // ************ MIRAR COMO SE INCLUYE ESTO EN EL TEST *******************
-    
-    // toca incluir tambien un char *t, tocaria duplicar el test con esta variable
-
     printPointerNoFlag(p);
     printPointer_Minus(p);
     printPointer_Zero(p);
@@ -514,18 +510,6 @@ void runPointerTest(void)
 
 int main(void)
 {
-    // char *coronavirus;
-    // char *str;
-
-    // coronavirus = "virus malo";
-    // str = coronavirus;
-
-    // unsigned long m = (unsigned long) str; 
-
-    // printf("direccion 0x%0x\n",m);
-    // printf("real %p\n", coronavirus);
-
-    // ft_printf ("%s, %s %d, %.2d:%.2d\n", "lunes", "marzo", 23, 10, 42);
 
     runPointerTest();
 	return (0);

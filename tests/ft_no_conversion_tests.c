@@ -494,10 +494,3 @@ int main(void)
     runNoConversionTest();
 	return (0);
 }
-
-// //Null specifier tests
-// int		nocrash_nullspec_basic(void){return test("%");}
-// int		nocrash_nullspec_5w(void){return test("%5");}
-// int		nocrash_nullspec_5wzp(void){return test("%05");}
-// int		nocrash_nullspec_5wzplj(void){return test("%-05");}
-// int		nocrash_nullspec_5wlj(void){return test("%-5");}

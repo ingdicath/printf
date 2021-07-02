@@ -136,9 +136,3 @@ int main (void)
 	printf("|%s|\n", s_hidden );
 	return (0);
 }
-
-
-// casos a arreglar
-// 1) Orden de los flags -0 y 0-, los dos deben funcionar
-// 2) empty spacing after % y between flags, conversions, width, precision
-

@@ -453,22 +453,22 @@ void runStringTest(void)
     char *str;
     str = "I don't like Bad Bunny";
 
-    printStringNoFlag(str);//ok
-    printString_Minus(str);//ok
-    printString_Zero(str);//ok
-    printString_Width(str);//ok
-    printString_Width_Star(str);//ok
-    printString_Precision(str); // MURIOP
+    printStringNoFlag(str);
+    printString_Minus(str);
+    printString_Zero(str);
+    printString_Width(str);
+    printString_Width_Star(str);
+    printString_Precision(str);
     printString_Precision_Number(str);
     printString_Precision_Star(str);
-    printString_Minus_Zero(str); //ok
-    printString_Minus_Width(str);//ok
-    printString_Minus_Width_Star(str);//ok
+    printString_Minus_Zero(str); 
+    printString_Minus_Width(str);
+    printString_Minus_Width_Star(str);
     printString_Minus_Precision(str);   
     printString_Minus_Precision_Number(str);
     printString_Minus_Precision_Star(str);
-    printString_Zero_Width(str); //ok
-    printString_Zero_Width_Star(str); //ok
+    printString_Zero_Width(str); 
+    printString_Zero_Width_Star(str); 
     printString_Zero_Precision(str);
     printString_Zero_Precision_Number(str);
     printString_Zero_Precision_Star(str);
@@ -478,8 +478,8 @@ void runStringTest(void)
     printString_Width_Star_Precision(str);
     printString_Width_Star_Precision_Number(str);
     printString_Width_Star_Precision_Star(str);
-    printString_Minus_Zero_Width(str); // ok
-    printString_Minus_Zero_Width_Number(str); // ok
+    printString_Minus_Zero_Width(str); 
+    printString_Minus_Zero_Width_Number(str); 
     printString_Minus_Zero_Precision(str);
     printString_Minus_Zero_Precision_Number(str);
     printString_Minus_Zero_Precision_Star(str);

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "printf.h"
+#include "../printf.h"
 
 #define YES "test %p %x %s %s %p %c %X %x %% --  -- %d - %u\n", "f", 0xFFFF,  NULL, "hoi", "abc", 'C', 0, 9, -42, 5
 int     main(void)

@@ -1,23 +1,29 @@
 # PRINTF
 
+CODAM project Curriculum 2019
+
 ## Description
 
-This project is aimed to recode printf. It's very important to know how to use variadic arguments.
-Write a library that contains ft_printf, a function that will mimic the real printf.
+- **Objective**: Write a library that contains ft_printf, a function that will mimic the real printf, using variadic arguments.
 
-## Useful links
+---
 
-- [Test ptf_2019](https://github.com/cclaude42/PFT_2019) - Test for mandatory part
-- [The secrets of printf](https://www.cypress.com/file/54441/download) -  A brief summary about printf
-- [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) - Wikipedia
-- [man 3 printf](https://linux.die.net/man/3/printf)
-- [man 3 stdarg](https://linux.die.net/man/3/stdarg) 
-- [International Standard, Programming languages — C](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf) - Pag 309-316 about fprintf
+## Requirements
 
-## Parameters evaluated in this project
+- The prototype of ft_printf should be ```int ft_printf(const char *, ...);```
+- Recode the **libc’s printf** function
+- It must not do the buffer management like the real printf
+- Manage the following conversions: ```cspdiuxX%```
+- Manage any combination of the following flags: ```- 0 . *``` and minimum field
+width with all conversions
+- Using the command __libtool__ is forbidden.
 
-#### Flags
-_'-'_ and _'0'_
+### Allowed functions
 
-#### Conversions
-_cspdiuxX%_
+```malloc, free, write, va_start, va_arg, va_copy, va_end```
+
+---
+## How to build :hammer:
+
+1. Clone the repository and go to folder ```cd ft_printf```
+2. Type in the terminal ```make```
